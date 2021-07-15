@@ -56,4 +56,4 @@ if __name__ == "__main__":
     haar_cascade_face_feature_path = "haarcascade_frontalface_default.xml"
     input_image_path = "test_images\sample_image8.jpg"
     predicted_result = get_predictions_from_image(input_image_path, model_path, haar_cascade_face_feature_path)
-    print("identified facial expression is  ", predicted_result)
+    print("Identified facial expression is  ", predicted_result)
